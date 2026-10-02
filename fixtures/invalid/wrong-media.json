@@ -1,0 +1,24 @@
+{
+  "kind": "audio",
+  "schemaVersion": "1.0.0",
+  "asset": {
+    "kind": "asset-ref",
+    "schemaVersion": "1.0.0",
+    "id": "urn:assets:x",
+    "mediaType": "video/webm",
+    "uri": "https://assets.example.org/x"
+  },
+  "transcript": {
+    "kind": "localized-text",
+    "schemaVersion": "1.0.0",
+    "defaultLocale": "es",
+    "translations": {
+      "es": {
+        "text": "Buenos días"
+      },
+      "en": {
+        "text": "Good morning"
+      }
+    }
+  }
+}

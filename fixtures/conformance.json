@@ -1,0 +1,83 @@
+[
+  {
+    "file": "text.json",
+    "valid": true
+  },
+  {
+    "file": "markdown.json",
+    "valid": true
+  },
+  {
+    "file": "math.json",
+    "valid": true
+  },
+  {
+    "file": "image.json",
+    "valid": true
+  },
+  {
+    "file": "code.json",
+    "valid": true
+  },
+  {
+    "file": "audio.json",
+    "valid": true
+  },
+  {
+    "file": "video.json",
+    "valid": true
+  },
+  {
+    "file": "reference.json",
+    "valid": true
+  },
+  {
+    "file": "mixed.json",
+    "valid": true
+  },
+  {
+    "file": "invalid/unknown-kind.json",
+    "valid": false,
+    "structural": true
+  },
+  {
+    "file": "invalid/bad-version.json",
+    "valid": false,
+    "structural": true
+  },
+  {
+    "file": "invalid/missing-alt.json",
+    "valid": false,
+    "structural": true
+  },
+  {
+    "file": "invalid/executable-snippet.json",
+    "valid": false,
+    "structural": true
+  },
+  {
+    "file": "invalid/rendered-math.json",
+    "valid": false,
+    "structural": true
+  },
+  {
+    "file": "invalid/wrong-media.json",
+    "valid": false,
+    "structural": false
+  },
+  {
+    "file": "invalid/caption-order.json",
+    "valid": false,
+    "structural": false
+  },
+  {
+    "file": "invalid/locale.json",
+    "valid": false,
+    "structural": false
+  },
+  {
+    "file": "invalid/missing-default.json",
+    "valid": false,
+    "structural": false
+  }
+]

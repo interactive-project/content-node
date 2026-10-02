@@ -1,0 +1,15 @@
+{
+  "kind": "content-ref",
+  "schemaVersion": "1.0.0",
+  "id": "urn:content:shared-prompt",
+  "plainText": {
+    "kind": "localized-text",
+    "schemaVersion": "1.0.0",
+    "defaultLocale": "en",
+    "translations": {
+      "en": {
+        "text": "Shared prompt"
+      }
+    }
+  }
+}

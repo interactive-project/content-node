@@ -1,0 +1,15 @@
+{
+  "kind": "markdown",
+  "schemaVersion": "1.0.0",
+  "source": "**Choose** one answer.",
+  "plainText": {
+    "kind": "localized-text",
+    "schemaVersion": "1.0.0",
+    "defaultLocale": "en",
+    "translations": {
+      "en": {
+        "text": "Choose one answer."
+      }
+    }
+  }
+}

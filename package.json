@@ -1,0 +1,50 @@
+{
+  "name": "@interactive-project/content-node",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Portable rich content schemas and bounded deterministic normalization",
+  "files": [
+    "index.js",
+    "types",
+    "validation",
+    "schemas",
+    "docs",
+    "fixtures",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./types/content-node.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
+    },
+    "./validation": {
+      "types": "./validation/index.d.ts",
+      "import": "./validation/index.js",
+      "default": "./validation/index.js"
+    },
+    "./schemas/content-node.v1.schema.json": "./schemas/content-node.v1.schema.json"
+  },
+  "scripts": {
+    "test": "node scripts/check-conformance.mjs && python3 scripts/check_conformance.py"
+  },
+  "peerDependencies": {
+    "@interactive-project/protocol": "0.1.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  },
+  "peerDependenciesMeta": {
+    "ajv": {
+      "optional": true
+    },
+    "ajv-formats": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@interactive-project/protocol": "git+https://github.com/interactive-project/protocol.git#0280e004ba863621a257b96819f34295c8db0ea7",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "typescript": "^5.9.3"
+  }
+}

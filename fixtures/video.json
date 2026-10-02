@@ -1,0 +1,44 @@
+{
+  "kind": "video",
+  "schemaVersion": "1.0.0",
+  "asset": {
+    "kind": "asset-ref",
+    "schemaVersion": "1.0.0",
+    "id": "urn:assets:lesson",
+    "mediaType": "video/webm",
+    "uri": "https://assets.example.org/lesson"
+  },
+  "transcript": {
+    "kind": "localized-text",
+    "schemaVersion": "1.0.0",
+    "defaultLocale": "en",
+    "translations": {
+      "en": {
+        "text": "A triangle rotates."
+      }
+    }
+  },
+  "captions": [
+    {
+      "start": 0,
+      "end": 2,
+      "text": {
+        "kind": "localized-text",
+        "schemaVersion": "1.0.0",
+        "defaultLocale": "en",
+        "translations": {
+          "en": {
+            "text": "A triangle rotates."
+          }
+        }
+      }
+    }
+  ],
+  "poster": {
+    "kind": "asset-ref",
+    "schemaVersion": "1.0.0",
+    "id": "urn:assets:poster",
+    "mediaType": "image/png",
+    "uri": "https://assets.example.org/poster"
+  }
+}

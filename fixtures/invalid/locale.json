@@ -1,0 +1,21 @@
+{
+  "kind": "text",
+  "schemaVersion": "1.0.0",
+  "language": "en-us",
+  "value": {
+    "kind": "localized-text",
+    "schemaVersion": "1.0.0",
+    "defaultLocale": "es",
+    "translations": {
+      "es": {
+        "text": "¿Cuánto es dos más dos?"
+      },
+      "en": {
+        "text": "What is two plus two?"
+      },
+      "ar": {
+        "text": "كم يساوي اثنان زائد اثنين؟"
+      }
+    }
+  }
+}

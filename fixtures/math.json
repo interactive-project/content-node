@@ -1,0 +1,16 @@
+{
+  "kind": "math",
+  "schemaVersion": "1.0.0",
+  "format": "tex",
+  "source": "\\frac{1}{2} + \\frac{1}{2} = 1",
+  "plainText": {
+    "kind": "localized-text",
+    "schemaVersion": "1.0.0",
+    "defaultLocale": "en",
+    "translations": {
+      "en": {
+        "text": "One half plus one half equals one."
+      }
+    }
+  }
+}
