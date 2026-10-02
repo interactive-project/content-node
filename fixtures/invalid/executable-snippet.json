@@ -1,0 +1,17 @@
+{
+  "kind": "code",
+  "schemaVersion": "1.0.0",
+  "source": "console.log('example only');\\n",
+  "programmingLanguage": "javascript",
+  "caption": {
+    "kind": "localized-text",
+    "schemaVersion": "1.0.0",
+    "defaultLocale": "en",
+    "translations": {
+      "en": {
+        "text": "Read this snippet. It is not executed."
+      }
+    }
+  },
+  "execute": true
+}

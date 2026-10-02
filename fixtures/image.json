@@ -1,0 +1,31 @@
+{
+  "kind": "image",
+  "schemaVersion": "1.0.0",
+  "asset": {
+    "kind": "asset-ref",
+    "schemaVersion": "1.0.0",
+    "id": "urn:assets:triangle",
+    "mediaType": "image/png",
+    "uri": "https://assets.example.org/triangle"
+  },
+  "alt": {
+    "kind": "localized-text",
+    "schemaVersion": "1.0.0",
+    "defaultLocale": "en",
+    "translations": {
+      "en": {
+        "text": "A right triangle with sides three, four and five."
+      }
+    }
+  },
+  "caption": {
+    "kind": "localized-text",
+    "schemaVersion": "1.0.0",
+    "defaultLocale": "en",
+    "translations": {
+      "en": {
+        "text": "Pythagoras example"
+      }
+    }
+  }
+}

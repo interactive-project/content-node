@@ -1,0 +1,14 @@
+{
+  "kind": "text",
+  "schemaVersion": "1.0.0",
+  "value": {
+    "kind": "localized-text",
+    "schemaVersion": "1.0.0",
+    "defaultLocale": "es",
+    "translations": {
+      "en": {
+        "text": "Hello"
+      }
+    }
+  }
+}
