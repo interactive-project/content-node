@@ -5,6 +5,7 @@
   "description": "Portable rich content schemas and bounded deterministic normalization",
   "files": [
     "index.js",
+    "rendering",
     "types",
     "validation",
     "schemas",
@@ -18,6 +19,11 @@
       "import": "./index.js",
       "default": "./index.js"
     },
+    "./rendering": {
+      "types": "./rendering/index.d.ts",
+      "import": "./rendering/index.js",
+      "default": "./rendering/index.js"
+    },
     "./validation": {
       "types": "./validation/index.d.ts",
       "import": "./validation/index.js",
@@ -26,7 +32,7 @@
     "./schemas/content-node.v1.schema.json": "./schemas/content-node.v1.schema.json"
   },
   "scripts": {
-    "test": "node scripts/check-conformance.mjs && python3 scripts/check_conformance.py"
+    "test": "node scripts/check-conformance.mjs && node scripts/check-rendering.mjs && python3 scripts/check_conformance.py"
   },
   "peerDependencies": {
     "@interactive-project/protocol": "0.1.0",
