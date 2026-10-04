@@ -79,5 +79,10 @@
     "file": "invalid/missing-default.json",
     "valid": false,
     "structural": false
+  },
+  {
+    "file": "invalid/temporary-object-url.json",
+    "valid": false,
+    "structural": false
   }
 ]

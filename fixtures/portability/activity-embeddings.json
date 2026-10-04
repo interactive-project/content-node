@@ -1,0 +1,6 @@
+[
+  { "activity": "quiz", "slot": ["prompt"] },
+  { "activity": "flashcards", "slot": ["cards", "0", "front"] },
+  { "activity": "diagram", "slot": ["nodes", "0", "label"] },
+  { "activity": "whiteboard", "slot": ["objects", "0", "label"] }
+]
