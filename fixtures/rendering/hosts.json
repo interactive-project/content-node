@@ -1,0 +1,6 @@
+[
+  { "host": "dom", "resultShape": "native-node-reference" },
+  { "host": "react", "resultShape": "element-tree" },
+  { "host": "vue", "resultShape": "vnode-tree" },
+  { "host": "svelte", "resultShape": "compiled-component-props" }
+]
